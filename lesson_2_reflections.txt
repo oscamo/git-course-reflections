@@ -1,3 +1,24 @@
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 
 	It defines which files will be included in the next commit.
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+	Any file that was changed to effect the logical change can be added to the staging area and then committed all together.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+	When one wants to create a version that is not to be part of the main version, e.g. for trying out something experimental. It allows developing different versions separately.
+
+How do the diagrams help you visualize the branch structure?
+
+	Since the branch structure forms a tree graph, it is best visualized by a tree graph diagram! Directed arrows show commit parent relationships and reflect the assymmetric relationships between commits.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+	It includes changes from both branches being merged, joining them into one branch going forward. Hence the representation as joining paths.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+	Automatic merging saves a lot of time for changes that are logically unambiguous, while leaving ambiguous changes to the user to sort out.
+
